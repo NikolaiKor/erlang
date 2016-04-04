@@ -1,0 +1,12 @@
+{application, er1,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { er1_app, []}},
+  {env, []}
+ ]}.
