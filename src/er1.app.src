@@ -1,12 +1,13 @@
 {application, er1,
- [
-  {description, ""},
-  {vsn, "1"},
-  {registered, []},
-  {applications, [
-                  kernel,
-                  stdlib
-                 ]},
-  {mod, { er1_app, []}},
-  {env, []}
- ]}.
+  [
+    {description, ""},
+    {vsn, "1"},
+    {modules, [er1, lists, parser]},
+    {registered, []},
+    {applications, [
+      kernel,
+      stdlib
+    ]},
+    {mod, {er1_app, []}},
+    {env, []}
+  ]}.
